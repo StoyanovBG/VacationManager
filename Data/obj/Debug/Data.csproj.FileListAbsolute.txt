@@ -1,0 +1,45 @@
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\Data\bin\Debug\Data.dll.config
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\Data\bin\Debug\Data.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\Data\bin\Debug\Data.pdb
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\Data\bin\Debug\EntityFramework.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\Data\bin\Debug\EntityFramework.xml
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\Data\obj\Debug\Data.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\Data\obj\Debug\Data.pdb
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\Data\bin\Debug\Data.dll.config
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\Data\bin\Debug\Data.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\Data\bin\Debug\Data.pdb
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\Data\bin\Debug\EntityFramework.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\Data\bin\Debug\EntityFramework.xml
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\Data\obj\Debug\Data.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\Data\obj\Debug\Data.pdb
+C:\Users\danai\Desktop\OrgVacationManager\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\danai\Desktop\OrgVacationManager\Data\obj\Debug\Data.dll
+C:\Users\danai\Desktop\OrgVacationManager\Data\obj\Debug\Data.pdb
+C:\Users\danai\Desktop\OrgVacationManager\Data\bin\Debug\Data.dll.config
+C:\Users\danai\Desktop\OrgVacationManager\Data\bin\Debug\Data.dll
+C:\Users\danai\Desktop\OrgVacationManager\Data\bin\Debug\Data.pdb
+C:\Users\danai\Desktop\OrgVacationManager\Data\bin\Debug\EntityFramework.dll
+C:\Users\danai\Desktop\OrgVacationManager\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\danai\Desktop\OrgVacationManager\Data\bin\Debug\EntityFramework.xml
+C:\Users\danai\Desktop\OrgVacationManager\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\danai\Desktop\OrgVacationManager\Data\obj\Debug\Data.csproj.CopyComplete
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\Data\bin\Debug\Data.dll.config
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\Data\bin\Debug\Data.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\Data\bin\Debug\Data.pdb
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\Data\bin\Debug\EntityFramework.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\Data\bin\Debug\EntityFramework.xml
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\Data\obj\Debug\Data.csprojAssemblyReference.cache
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\Data\obj\Debug\Data.csproj.CopyComplete
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\Data\obj\Debug\Data.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\Data\obj\Debug\Data.pdb

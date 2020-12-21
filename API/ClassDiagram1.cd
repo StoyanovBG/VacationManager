@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="API.BundleConfig" Collapsed="true">
+    <Position X="63.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.FilterConfig" Collapsed="true">
+    <Position X="65.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.RouteConfig" Collapsed="true">
+    <Position X="65.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.MvcApplication" Collapsed="true">
+    <Position X="62" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Controllers.HomeController" Collapsed="true">
+    <Position X="67.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAEQAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Controllers.ProjectsController" Collapsed="true">
+    <Position X="67.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEBAAAAAAAAAAAAAAEAAAACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\ProjectsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Controllers.RolesController" Collapsed="true">
+    <Position X="62" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAEAAAACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\RolesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Controllers.TeamsController" Collapsed="true">
+    <Position X="69" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAABAAAAACAACAAAAIEAAAACgAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\TeamsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Controllers.TimeOffsController" Collapsed="true">
+    <Position X="63.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADIAQAAAAAAgAAAACAEAAEAABAAAAgAEAAAAAgAA=</HashCode>
+      <FileName>Controllers\TimeOffsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Controllers.UsersController" Collapsed="true">
+    <Position X="67.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAABAAAAAAAAAAAAAAEAAAACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\UsersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.AuthenticationManager" Collapsed="true">
+    <Position X="62" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AuthenticationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.PagerVM" Collapsed="true">
+    <Position X="63.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAABAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PagerVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.Filters.ProjectsFilterVM" Collapsed="true">
+    <Position X="69" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Filters\ProjectsFilterVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.Filters.RolesFilterVM" Collapsed="true">
+    <Position X="63.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Filters\RolesFilterVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.Filters.TeamsFilterVM" Collapsed="true">
+    <Position X="62" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Filters\TeamsFilterVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.Filters.TimeOffsFilterVM" Collapsed="true">
+    <Position X="65.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Filters\TimeOffsFilterVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.Filters.UsersFilterVM" Collapsed="true">
+    <Position X="69" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAEAAAAAg=</HashCode>
+      <FileName>Models\Filters\UsersFilterVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Base.BaseAssignVM" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Base\BaseAssignVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Base.BaseDetailsVM" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Base\BaseDetailsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Base.BaseEditVM" Collapsed="true">
+    <Position X="38" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Base\BaseEditVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Base.BaseIndexVM" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Base\BaseIndexVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Base.BasePair" Collapsed="true">
+    <Position X="53.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Base\BasePair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Base.BaseVM" Collapsed="true">
+    <Position X="31.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Base\BaseVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.LoginVM" Collapsed="true">
+    <Position X="69" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\LoginVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Projects.ProjectsAssignVM" Collapsed="true">
+    <Position X="65.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Projects\ProjectsAssignVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Projects.ProjectsDetailsVM" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Projects\ProjectsDetailsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Projects.ProjectsEditVM" Collapsed="true">
+    <Position X="39.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Projects\ProjectsEditVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Projects.ProjectsIndexVM" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Projects\ProjectsIndexVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Projects.ProjectsPair" Collapsed="true">
+    <Position X="55" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Projects\ProjectsPair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Projects.ProjectsVM" Collapsed="true">
+    <Position X="59.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAggAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Projects\ProjectsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Roles.RolesDetailsVM" Collapsed="true">
+    <Position X="14.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Roles\RolesDetailsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Roles.RolesEditVM" Collapsed="true">
+    <Position X="43.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Roles\RolesEditVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Roles.RolesIndexVM" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Roles\RolesIndexVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Roles.RolesPair" Collapsed="true">
+    <Position X="50.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Roles\RolesPair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Roles.RolesVM" Collapsed="true">
+    <Position X="21.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Models\ViewModels\Roles\RolesVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Teams.TeamsAssignVM" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Teams\TeamsAssignVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Teams.TeamsDetailsVM" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAIAAAACAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Teams\TeamsDetailsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Teams.TeamsEditVM" Collapsed="true">
+    <Position X="41.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Models\ViewModels\Teams\TeamsEditVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Teams.TeamsIndexVM" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Teams\TeamsIndexVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Teams.TeamsPair" Collapsed="true">
+    <Position X="57.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Teams\TeamsPair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Teams.TeamsVM" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAQAAAAACBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Teams\TeamsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.TimeOffs.PaidTimeOffs.PaidTimeOffsEditVM" Collapsed="true">
+    <Position X="30.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\TimeOffs\PaidTimeOffs\PaidTimeOffsEditVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.TimeOffs.PaidTimeOffs.PaidTimeOffsVM" Collapsed="true">
+    <Position X="23.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\TimeOffs\PaidTimeOffs\PaidTimeOffsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.TimeOffs.SickTimeOff.SickTimeOffsDetailsVM" Collapsed="true">
+    <Position X="19" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\TimeOffs\SickTimeOff\SickTimeOffsDetailsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.TimeOffs.SickTimeOff.SickTimeOffsEditVM" Collapsed="true">
+    <Position X="34.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\TimeOffs\SickTimeOff\SickTimeOffsEditVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.TimeOffs.SickTimeOff.SickTimeOffsVM" Collapsed="true">
+    <Position X="28" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\TimeOffs\SickTimeOff\SickTimeOffsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.TimeOffs.TimeOffsApproveVM" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\TimeOffs\TimeOffsApproveVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.TimeOffs.TimeOffsDetailsVM" Collapsed="true">
+    <Position X="19" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAQAAAQAAAAAAAAAAAAAIAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\TimeOffs\TimeOffsDetailsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.TimeOffs.TimeOffsEditVM" Collapsed="true">
+    <Position X="32.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAQAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\TimeOffs\TimeOffsEditVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.TimeOffs.TimeOffsIndexVM" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACCAAAAAAAAAAAAAAAAgAAAAAAAAAAAICAIAAI=</HashCode>
+      <FileName>Models\ViewModels\TimeOffs\TimeOffsIndexVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.TimeOffs.TimeOffsVM" Collapsed="true">
+    <Position X="25.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAQAAAAAAAAAAAAAAAAAKAAACAAAAAQAAAAA=</HashCode>
+      <FileName>Models\ViewModels\TimeOffs\TimeOffsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.TimeOffs.UnpaidTimeOffs.UnpaidTimeOffsEditVM" Collapsed="true">
+    <Position X="32.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\TimeOffs\UnpaidTimeOffs\UnpaidTimeOffsEditVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.TimeOffs.UnpaidTimeOffs.UnpaidTimeOffsVM" Collapsed="true">
+    <Position X="25.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\TimeOffs\UnpaidTimeOffs\UnpaidTimeOffsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Users.UsersAssignVM" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Users\UsersAssignVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Users.UsersDetailsVM" Collapsed="true">
+    <Position X="16.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAQAAAAABAAAAAAAAAAAAUAAAAAg=</HashCode>
+      <FileName>Models\ViewModels\Users\UsersDetailsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Users.UsersEditRoleVM" Collapsed="true">
+    <Position X="46" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Users\UsersEditRoleVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Users.UsersEditVM" Collapsed="true">
+    <Position X="37" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEIAAAAAAAAAAQAAAAAAAgAAAAACAAAAAAAAAAg=</HashCode>
+      <FileName>Models\ViewModels\Users\UsersEditVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Users.UsersIndexVM" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Users\UsersIndexVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Users.UsersPair" Collapsed="true">
+    <Position X="52.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\Users\UsersPair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Models.ViewModels.Users.UsersVM" Collapsed="true">
+    <Position X="48.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAEAAAAAg=</HashCode>
+      <FileName>Models\ViewModels\Users\UsersVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Services.StorageService" Collapsed="true">
+    <Position X="67.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEAAAAAAAA=</HashCode>
+      <FileName>Services\StorageService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

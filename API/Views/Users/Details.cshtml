@@ -1,0 +1,65 @@
+﻿@model API.Models.ViewModels.Users.UsersDetailsVM
+
+@{
+    ViewBag.Title = "User Details";
+    Layout = "~/Views/Shared/_Template.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">@Model.Username's details</h1>
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td>Username</td>
+                            <td>@Model.Username</td>
+                            <td>
+                                <a href="@Url.Action("Assign", "Users", new {Id = Model.Id})" class="btn btn-info btn-icon-split">
+                                    <span class="text">Assign</span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Role</td>
+                            <td>@Model.RoleName</td>
+                            <td>
+                                <a href="@Url.Action("Edit", "Users", new {Id = Model.Id})" class="btn btn-warning btn-icon-split">
+                                    <span class="text">Edit</span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>First name</td>
+                            <td>@Model.FirstName</td>
+                            <td>
+                                <a href="@Url.Action("Delete", "Users", new {Id = Model.Id})" class="btn btn-danger btn-circle">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Last name</td>
+                            <td>@Model.LastName</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Team</td>
+                            <td>@Model.TeamName</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Led teams</td>
+                            <td>@Model.LedTeams</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.container-fluid -->

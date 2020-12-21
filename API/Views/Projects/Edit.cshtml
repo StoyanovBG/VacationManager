@@ -1,0 +1,33 @@
+﻿@model API.Models.ViewModels.Projects.ProjectsEditVM
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Template.cshtml";
+}
+
+<div class="container">
+    <div class="card o-hidden border-0 shadow-lg my-5">
+        <div class="card-body p-0">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="p-5">
+                        <div class="text-center">
+                            <h1 class="h4 text-gray-900 mb-4">Edit Project!</h1>
+                        </div>
+                        @using (Html.BeginForm("Edit", "Projects", FormMethod.Post, new { @class = "user" }))
+                        {
+                            <div class="form-group row">
+                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control form-control-user", placeholder = "Name.." } })
+                            </div>
+                            <div class="form-group row">
+                                @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control form-control-user", placeholder = "Description.." } })
+                            </div>
+                            <input type="submit" value="Save" class="btn btn-primary btn-user btn-block" />
+                        }
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

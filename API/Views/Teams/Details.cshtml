@@ -1,0 +1,134 @@
+﻿@model API.Models.ViewModels.Teams.TeamsDetailsVM
+
+@{
+    ViewBag.Title = "Team Details";
+    Layout = "~/Views/Shared/_Template.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">@Model.Name's details</h1>
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td>@Model.Name</td>
+                            <td>
+                                <a href="@Url.Action("AssignTeamLead", "Teams", new {Id = Model.Id})" class="btn btn-info btn-icon-split">
+                                    <span class="text">Assign Team Lead</span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="@Url.Action("RemoveTeamLead", "Teams", new {Id = Model.Id})" class="btn btn-info btn-icon-split">
+                                    <span class="text">Remove Team Lead</span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Project</td>
+                            @if (Model.Project != null)
+                            {
+                                <td>@Html.ActionLink(Model.Project.Name, "Details", "Projects", new { Id = Model.Project.Id }, null)</td>
+                            }
+                            else
+                            {
+                                <td></td>
+                            }
+                            <td>
+                            </td>
+                            <td>
+                                <a href="@Url.Action("RemoveProject", "Teams", new {Id = Model.Id})" class="btn btn-info btn-icon-split">
+                                    <span class="text">Remove Project</span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Team Lead</td>
+                            @if (Model.TeamLead != null)
+                            {
+                                <td>@Html.ActionLink(Model.TeamLead.Username, "Details", "Users", new { Id = Model.TeamLead.Id }, null)</td>
+                            }
+                            else
+                            {
+                                <td>
+                                </td>
+                            }
+                            <td>
+                                <a href="@Url.Action("Edit", "Teams", new {Id = Model.Id})" class="btn btn-warning btn-icon-split">
+                                    <span class="text">Edit</span>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="@Url.Action("Delete", "Teams", new {Id = Model.Id})" class="btn btn-danger btn-circle">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Developers</h1>
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Username</th>
+                            <th>First name</th>
+                            <th>Last name</th>
+                            <th>Role</th>
+                            <th></th>
+                            <th>
+                                <a href="@Url.Action("AssignDeveloper", "Teams", new {Id = Model.Id})" class="btn btn-success btn-icon-split">
+                                    <span class="text">Assign new developer</span>
+                                </a>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Username</th>
+                            <th>First name</th>
+                            <th>Last name</th>
+                            <th>Role</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @foreach (var item in Model.Developers)
+                        {
+                            <tr>
+                                <td>@item.Username</td>
+                                <td>@item.FirstName</td>
+                                <td>@item.LastName</td>
+                                <td>@item.RoleName</td>
+                                <th>
+                                    <a href="@Url.Action("Details", "Users", new {Id = item.Id})" class="btn btn-info btn-icon-split">
+                                        <span class="text">Details</span>
+                                    </a>
+                                </th>
+                                <th>
+                                    <a href="@Url.Action("RemoveDeveloper", "Teams", new {Id = item.Id, @teamId = Model.Id})" class="btn btn-warning btn-icon-split">
+                                        <span class="text">Remove from team</span>
+                                    </a>
+                                </th>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.container-fluid -->

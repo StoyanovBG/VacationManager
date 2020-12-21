@@ -1,0 +1,329 @@
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\API.dll.config
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\API.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\API.pdb
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\csc.exe
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\csc.exe.config
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\csc.rsp
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\csi.exe
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\csi.exe.config
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\csi.rsp
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.AppContext.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Console.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.IO.Compression.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Security.Claims.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.ValueTuple.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\vbc.exe
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\vbc.exe.config
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\vbc.rsp
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\VBCSCompiler.exe
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\Antlr3.Runtime.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\EntityFramework.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\EntityFramework.SqlServer.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\Newtonsoft.Json.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\System.Web.Helpers.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\System.Web.Mvc.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\System.Web.Optimization.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\System.Web.Razor.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\System.Web.WebPages.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\WebGrease.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\EntityFramework.xml
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\EntityFramework.SqlServer.xml
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\System.Web.Helpers.xml
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\System.Web.Mvc.xml
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\System.Web.Optimization.xml
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\System.Web.Razor.xml
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\System.Web.WebPages.xml
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\Newtonsoft.Json.xml
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\Antlr3.Runtime.pdb
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\obj\Debug\API.csproj.CopyComplete
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\obj\Debug\API.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\obj\Debug\API.pdb
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\Data.dll
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\Data.pdb
+C:\Users\danai\Documents\Projects\orgvacationmanager\OrgVacationManager\API\bin\Data.dll.config
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\API.dll.config
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\API.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\API.pdb
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\csc.exe
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\csc.exe.config
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\csc.rsp
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\csi.exe
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\csi.exe.config
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\csi.rsp
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.AppContext.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Console.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.IO.Compression.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Security.Claims.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.ValueTuple.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\vbc.exe
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\vbc.exe.config
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\vbc.rsp
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\VBCSCompiler.exe
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\Antlr3.Runtime.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\Data.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\EntityFramework.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\EntityFramework.SqlServer.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\Newtonsoft.Json.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\System.Web.Helpers.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\System.Web.Mvc.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\System.Web.Optimization.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\System.Web.Razor.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\System.Web.WebPages.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\WebGrease.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\Data.pdb
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\Data.dll.config
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\EntityFramework.xml
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\EntityFramework.SqlServer.xml
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\System.Web.Helpers.xml
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\System.Web.Mvc.xml
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\System.Web.Optimization.xml
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\System.Web.Razor.xml
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\System.Web.WebPages.xml
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\Newtonsoft.Json.xml
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\Antlr3.Runtime.pdb
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\obj\Debug\API.csproj.CopyComplete
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\obj\Debug\API.dll
+C:\Users\danai\Desktop\orgvacationmanager-master\OrgVacationManager\API\obj\Debug\API.pdb
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\API.dll.config
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\API.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\API.pdb
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\csc.exe
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\csc.exe.config
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\csc.rsp
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\csi.exe
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\csi.exe.config
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\csi.rsp
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.AppContext.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Console.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.IO.Compression.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Security.Claims.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.ValueTuple.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\vbc.exe
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\vbc.exe.config
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\vbc.rsp
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\VBCSCompiler.exe
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\Antlr3.Runtime.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\Data.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\EntityFramework.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\EntityFramework.SqlServer.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\Newtonsoft.Json.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\System.Web.Helpers.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\System.Web.Mvc.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\System.Web.Optimization.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\System.Web.Razor.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\System.Web.WebPages.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\WebGrease.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\Data.pdb
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\Data.dll.config
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\EntityFramework.xml
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\EntityFramework.SqlServer.xml
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\System.Web.Helpers.xml
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\System.Web.Mvc.xml
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\System.Web.Optimization.xml
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\System.Web.Razor.xml
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\System.Web.WebPages.xml
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\Newtonsoft.Json.xml
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\Antlr3.Runtime.pdb
+C:\Users\danai\Desktop\OrgVacationManager\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\danai\Desktop\OrgVacationManager\API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\danai\Desktop\OrgVacationManager\API\obj\Debug\API.csproj.CopyComplete
+C:\Users\danai\Desktop\OrgVacationManager\API\obj\Debug\API.dll
+C:\Users\danai\Desktop\OrgVacationManager\API\obj\Debug\API.pdb
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\API.dll.config
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\API.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\API.pdb
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\csc.exe
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\csc.exe.config
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\csc.rsp
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\csi.exe
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\csi.exe.config
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\csi.rsp
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.AppContext.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Collections.Immutable.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Console.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.IO.Compression.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.IO.FileSystem.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.IO.Pipes.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Reflection.Metadata.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Security.AccessControl.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Security.Claims.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Security.Principal.Windows.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.ValueTuple.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Xml.XmlDocument.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Xml.XPath.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\vbc.exe
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\vbc.exe.config
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\vbc.rsp
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\VBCSCompiler.exe
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\roslyn\VBCSCompiler.exe.config
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\Antlr3.Runtime.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\Data.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\EntityFramework.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\EntityFramework.SqlServer.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\Microsoft.Web.Infrastructure.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\Newtonsoft.Json.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\System.Web.Helpers.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\System.Web.Mvc.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\System.Web.Optimization.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\System.Web.Razor.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\System.Web.WebPages.Deployment.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\System.Web.WebPages.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\System.Web.WebPages.Razor.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\WebGrease.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\Data.pdb
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\Data.dll.config
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\EntityFramework.xml
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\EntityFramework.SqlServer.xml
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\System.Web.Helpers.xml
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\System.Web.Mvc.xml
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\System.Web.Optimization.xml
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\System.Web.Razor.xml
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\System.Web.WebPages.xml
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\System.Web.WebPages.Deployment.xml
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\System.Web.WebPages.Razor.xml
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\Newtonsoft.Json.xml
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\Antlr3.Runtime.pdb
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\obj\Debug\API.csprojAssemblyReference.cache
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\obj\Debug\API.csproj.CopyComplete
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\obj\Debug\API.dll
+D:\C#\12. Софтуерно инжинерство\02-working-with-legacy-code\lab-after\OrgVacationManager\API\obj\Debug\API.pdb

@@ -1,0 +1,139 @@
+﻿@model API.Models.ViewModels.Roles.RolesIndexVM
+
+@{
+    var loggedUser = API.Models.AuthenticationManager.LoggedUser;
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Template.cshtml";
+}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Roles</h1>
+    <p class="mb-4">List of all roles</p>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            @using (Html.BeginForm("Index", "Roles", FormMethod.Get, new { @class = "d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" }))
+            {
+                <div class="input-group">
+                    @Html.EditorFor(model => model.FilterVm.Name, new { htmlAttributes = new { @class = "form-control bg-light border-0 small", placeholder = "Role name" } })
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-search fa-sm"></i>
+                        </button>
+                    </div>
+                </div>
+            }
+            @if (loggedUser.Role.Name == "CEO")
+            {
+                <a href="@Url.Action("Edit", "Roles")" class="btn btn-success btn-icon-split" style="float: right">
+                    <span class="icon text-white-50">
+                        <i class="fas fa-arrow-right"></i>
+                    </span>
+                    <span class="text">Create new role</span>
+                </a>
+            }
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Assigned users</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Name</th>
+                            <th>Assigned users</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @foreach (var item in Model.Items)
+                        {
+                            <tr>
+                                <td>
+                                    <a href="@Url.Action("Details", "Roles", new {Id = item.Id})">
+                                        @item.Name
+                                    </a>
+                                </td>
+                                <td>@item.AssignedUsersCount</td>
+                                @if (loggedUser.Role.Name == "CEO")
+                                {
+                                    <td>
+                                        <a href="@Url.Action("Edit", "Roles", new {Id = item.Id})" class="btn btn-warning btn-icon-split">
+                                            <span class="text">Edit</span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="@Url.Action("Delete", "Roles", new {Id = item.Id})" class="btn btn-danger btn-circle">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                    </td>
+                                }
+                                else
+                                {
+                                    <td></td>
+                                    <td></td>
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        @{
+            string pageLink = "?";
+            for (int i = 0; i < this.Request.QueryString.Count; i++)
+            {
+                if (this.Request.QueryString.GetKey(i) != "Pager.Page")
+                {
+                    pageLink += this.Request.QueryString.GetKey(i) + "=" + Url.Encode(this.Request.QueryString[i]) + "&";
+                }
+            }
+        }
+        <ul style="list-style-type:none;">
+            @for (int i = 0; i < Model.Pager.PagesCount; i++)
+            {
+                <li style="float:left; margin:0 5px;">
+                    <a href="/@this.ViewContext.RouteData.Values["controller"]/@this.ViewContext.RouteData.Values["action"]@Html.Raw(pageLink)Pager.Page=@(i+1)" style="text-decoration:none; font-weight:@(Model.Pager.Page == (i+1) ? "bold" : "normal")">@(i + 1)</a>
+                </li>
+            }
+            <li>
+                <select id="ddlItemsPerpage" onchange="ddlItemsPerpage_OnChange();" style="border-radius: 1rem; width: 5%; height: 3vh; margin-left: 10px">
+                    <option value="10" @(Model.Pager.ItemsPerPage == 10 ? "selected" : "")>10</option>
+                    <option value="50" @(Model.Pager.ItemsPerPage == 50 ? "selected" : "")>50</option>
+                    <option value="100" @(Model.Pager.ItemsPerPage == 100 ? "selected" : "")>100</option>
+                </select>
+            </li>
+        </ul>
+        <script>
+                        function ddlItemsPerpage_OnChange() {
+                            @{
+                                string itemsPerPageLink = "?";
+                                for (int i = 0; i < this.Request.QueryString.Count; i++)
+                                {
+                                    if (!this.Request.QueryString.GetKey(i).StartsWith("Pager"))
+                                    {
+                                        itemsPerPageLink += this.Request.QueryString.GetKey(i) + "=" + Url.Encode(this.Request.QueryString[i]) + "&";
+                                    }
+                                }
+                            }
+
+                            var link = "/@this.ViewContext.RouteData.Values["controller"]/@this.ViewContext.RouteData.Values["action"]@Html.Raw(itemsPerPageLink)" + "Pager.ItemsPerPage=" + $("#ddlItemsPerpage").val();
+
+                            window.location.href = link;
+                        }
+        </script>
+    </div>
+
+</div>
+<!-- /.container-fluid -->

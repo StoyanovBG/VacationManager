@@ -1,0 +1,30 @@
+﻿@model API.Models.ViewModels.Teams.TeamsAssignVM
+
+@{
+    ViewBag.Title = "AssignTeamLead";
+    Layout = "~/Views/Shared/_Template.cshtml";
+}
+
+<div class="container">
+    <div class="card o-hidden border-0 shadow-lg my-5">
+        <div class="card-body p-0">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="p-5">
+                        <div class="text-center">
+                            <h1 class="h4 text-gray-900 mb-4">Assign a Team Lead!</h1>
+                        </div>
+                        @using (Html.BeginForm("AssignTeamLead", "Teams", FormMethod.Post, new { @class = "user" }))
+                        {
+                            <div class="form-group row">
+                                @Html.DropDownListFor(model => model.UserId, new SelectList(Model.Users, "Id", "Username"), new { style = "border-radius: 1rem; width: 100%;" })
+                            </div>
+                            <input type="submit" value="Save" class="btn btn-primary btn-user btn-block" />
+                        }
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

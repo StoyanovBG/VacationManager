@@ -1,0 +1,364 @@
+﻿@model API.Models.ViewModels.TimeOffs.TimeOffsApproveVM
+
+@{
+    ViewBag.Title = "AllRequests";
+    Layout = "~/Views/Shared/_Template.cshtml";
+}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">All Requests</h1>
+    <p class="mb-4">Paid Time off Requests</p>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            @using (Html.BeginForm("AllRequests", "TimeOffs", FormMethod.Get, new { @class = "d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" }))
+            {
+                <div class="input-group">
+                    @Html.HiddenFor(model => model.UnpaidTimeOffsFilter.CreatedAfter)
+                    @Html.HiddenFor(model => model.SickTimeOffsFilter.CreatedAfter)
+                    @Html.LabelFor(model => model.PaidTimeOffsFilter.CreatedAfter)
+                    @Html.EditorFor(model => model.PaidTimeOffsFilter.CreatedAfter, new { htmlAttributes = new { @class = "form-control bg-light border-0 small", placeholder = "Created after..", @type = "date" } })
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-search fa-sm"></i>
+                        </button>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Last edit</th>
+                            <th>From</th>
+                            <th>To</th>
+                            <th>Approved</th>
+                            <th>Half day</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Last edit</th>
+                            <th>From</th>
+                            <th>To</th>
+                            <th>Approved</th>
+                            <th>Half day</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @foreach (var item in Model.PaidTimeOffs)
+                        {
+                            <tr>
+                                <td>@item.CreatedOn</td>
+                                <td>@item.From</td>
+                                <td>@item.To</td>
+                                <td>@item.IsApproved</td>
+                                <td>@item.IsHalfDay</td>
+                                <td>
+                                    <a href="@Url.Action("ApprovePaid", "TimeOffs", new {Id = item.Id})" class="btn btn-success btn-circle btn-lg">
+                                        <i class="fas fa-check"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("DeletePaid", "TimeOffs", new {Id = item.Id})" class="btn btn-danger btn-circle btn-lg">
+                                        <i class="fas fa-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        @{
+            string pageLinkPaid = "?";
+            for (int i = 0; i < this.Request.QueryString.Count; i++)
+            {
+                if (this.Request.QueryString.GetKey(i) != "PaidTimeOffsPager.Page")
+                {
+                    pageLinkPaid += this.Request.QueryString.GetKey(i) + "=" + Url.Encode(this.Request.QueryString[i]) + "&";
+                }
+            }
+        }
+        <ul style="list-style-type:none;">
+            @for (int i = 0; i < Model.PaidTimeOffsPager.PagesCount; i++)
+            {
+                <li style="float:left; margin:0 5px;">
+                    <a href="/@this.ViewContext.RouteData.Values["controller"]/@this.ViewContext.RouteData.Values["action"]@Html.Raw(pageLinkPaid)PaidTimeOffsPager.Page=@(i+1)" style="text-decoration:none; font-weight:@(Model.PaidTimeOffsPager.Page == (i+1) ? "bold" : "normal")">@(i + 1)</a>
+                </li>
+            }
+            <li>
+                <select id="ddlItemsPerpagePaid" onchange="ddlItemsPerpage_OnChangePaid();" style="border-radius: 1rem; width: 5%; height: 3vh; margin-left: 10px">
+                    <option value="10" @(Model.PaidTimeOffsPager.ItemsPerPage == 10 ? "selected" : "")>10</option>
+                    <option value="50" @(Model.PaidTimeOffsPager.ItemsPerPage == 50 ? "selected" : "")>50</option>
+                    <option value="100" @(Model.PaidTimeOffsPager.ItemsPerPage == 100 ? "selected" : "")>100</option>
+                </select>
+            </li>
+        </ul>
+        <script>
+                        function ddlItemsPerpage_OnChangePaid() {
+                            @{
+                                string itemsPerPageLinkPaid = "?";
+                                for (int i = 0; i < this.Request.QueryString.Count; i++)
+                                {
+                                    if (!this.Request.QueryString.GetKey(i).StartsWith("PaidTimeOffsPager"))
+                                    {
+                                        itemsPerPageLinkPaid += this.Request.QueryString.GetKey(i) + "=" + Url.Encode(this.Request.QueryString[i]) + "&";
+                                    }
+                                }
+                            }
+
+                            var link = "/@this.ViewContext.RouteData.Values["controller"]/@this.ViewContext.RouteData.Values["action"]@Html.Raw(itemsPerPageLinkPaid)" + "PaidTimeOffsPager.ItemsPerPage=" + $("#ddlItemsPerpagePaid").val();
+
+                            window.location.href = link;
+                        }
+        </script>
+    </div>
+
+    <p class="mb-4">Unpaid Time off Requests</p>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            @using (Html.BeginForm("AllRequests", "TimeOffs", FormMethod.Get, new { @class = "d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" }))
+            {
+                <div class="input-group">
+                    @Html.HiddenFor(model => model.PaidTimeOffsFilter.CreatedAfter)
+                    @Html.HiddenFor(model => model.SickTimeOffsFilter.CreatedAfter)
+                    @Html.LabelFor(model => model.UnpaidTimeOffsFilter.CreatedAfter)
+                    @Html.EditorFor(model => model.UnpaidTimeOffsFilter.CreatedAfter, new { htmlAttributes = new { @class = "form-control bg-light border-0 small", placeholder = "Created after..", @type = "date" } })
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-search fa-sm"></i>
+                        </button>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Last edit</th>
+                            <th>From</th>
+                            <th>To</th>
+                            <th>Approved</th>
+                            <th>Half day</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Last edit</th>
+                            <th>From</th>
+                            <th>To</th>
+                            <th>Approved</th>
+                            <th>Half day</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @foreach (var item in Model.UnpaidTimeOffs)
+                        {
+                            <tr>
+                                <td>@item.CreatedOn</td>
+                                <td>@item.From</td>
+                                <td>@item.To</td>
+                                <td>@item.IsApproved</td>
+                                <td>@item.IsHalfDay</td>
+                                <td>
+                                    <a href="@Url.Action("ApproveUnpaid", "TimeOffs", new {Id = item.Id})" class="btn btn-success btn-circle btn-lg">
+                                        <i class="fas fa-check"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("DeleteUnpaid", "TimeOffs", new {Id = item.Id})" class="btn btn-danger btn-circle btn-lg">
+                                        <i class="fas fa-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        @{
+            string pageLinkUnpaid = "?";
+            for (int i = 0; i < this.Request.QueryString.Count; i++)
+            {
+                if (this.Request.QueryString.GetKey(i) != "UnpaidTimeOffsPager.Page")
+                {
+                    pageLinkUnpaid += this.Request.QueryString.GetKey(i) + "=" + Url.Encode(this.Request.QueryString[i]) + "&";
+                }
+            }
+        }
+        <ul style="list-style-type:none;">
+            @for (int i = 0; i < Model.UnpaidTimeOffsPager.PagesCount; i++)
+            {
+                <li style="float:left; margin:0 5px;">
+                    <a href="/@this.ViewContext.RouteData.Values["controller"]/@this.ViewContext.RouteData.Values["action"]@Html.Raw(pageLinkUnpaid)UnpaidTimeOffsPager.Page=@(i+1)" style="text-decoration:none; font-weight:@(Model.UnpaidTimeOffsPager.Page == (i+1) ? "bold" : "normal")">@(i + 1)</a>
+                </li>
+            }
+            <li>
+                <select id="ddlItemsPerpageUnpaid" onchange="ddlItemsPerpage_OnChangeUnpaid();" style="border-radius: 1rem; width: 5%; height: 3vh; margin-left: 10px">
+                    <option value="10" @(Model.UnpaidTimeOffsPager.ItemsPerPage == 10 ? "selected" : "")>10</option>
+                    <option value="50" @(Model.UnpaidTimeOffsPager.ItemsPerPage == 50 ? "selected" : "")>50</option>
+                    <option value="100" @(Model.UnpaidTimeOffsPager.ItemsPerPage == 100 ? "selected" : "")>100</option>
+                </select>
+            </li>
+        </ul>
+        <script>
+                        function ddlItemsPerpage_OnChangeUnpaid() {
+                            @{
+                                string itemsPerPageLinkUnpaid = "?";
+                                for (int i = 0; i < this.Request.QueryString.Count; i++)
+                                {
+                                    if (!this.Request.QueryString.GetKey(i).StartsWith("UnpaidTimeOffsPager"))
+                                    {
+                                        itemsPerPageLinkUnpaid += this.Request.QueryString.GetKey(i) + "=" + Url.Encode(this.Request.QueryString[i]) + "&";
+                                    }
+                                }
+                            }
+
+                            var link = "/@this.ViewContext.RouteData.Values["controller"]/@this.ViewContext.RouteData.Values["action"]@Html.Raw(itemsPerPageLinkUnpaid)" + "UnpaidTimeOffsPager.ItemsPerPage=" + $("#ddlItemsPerpageUnpaid").val();
+
+                            window.location.href = link;
+                        }
+        </script>
+    </div>
+
+
+    <p class="mb-4">Sick Time off Requests</p>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            @using (Html.BeginForm("AllRequests", "TimeOffs", FormMethod.Get, new { @class = "d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" }))
+            {
+                <div class="input-group">
+                    @Html.HiddenFor(model => model.PaidTimeOffsFilter.CreatedAfter)
+                    @Html.HiddenFor(model => model.UnpaidTimeOffsFilter.CreatedAfter)
+                    @Html.LabelFor(model => model.SickTimeOffsFilter.CreatedAfter)
+                    @Html.EditorFor(model => model.SickTimeOffsFilter.CreatedAfter, new { htmlAttributes = new { @class = "form-control bg-light border-0 small", placeholder = "Created after..", @type = "date" } })
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-search fa-sm"></i>
+                        </button>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Last edit</th>
+                            <th>From</th>
+                            <th>To</th>
+                            <th>Approved</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Last edit</th>
+                            <th>From</th>
+                            <th>To</th>
+                            <th>Approved</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @foreach (var item in Model.SickTimeOffs)
+                        {
+                            <tr>
+                                <td>@item.CreatedOn</td>
+                                <td>@item.From</td>
+                                <td>@item.To</td>
+                                <td>@item.IsApproved</td>
+                                <td>
+                                    <a href="@Url.Action("DetailsSick", "TimeOffs", new {Id = item.Id})" class="btn btn-info btn-icon-split">
+                                        <span class="text">Details</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("ApproveSick", "TimeOffs", new {Id = item.Id})" class="btn btn-success btn-circle btn-lg">
+                                        <i class="fas fa-check"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("DeleteSick", "TimeOffs", new {Id = item.Id})" class="btn btn-danger btn-circle btn-lg">
+                                        <i class="fas fa-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        @{
+            string pageLinkSick = "?";
+            for (int i = 0; i < this.Request.QueryString.Count; i++)
+            {
+                if (this.Request.QueryString.GetKey(i) != "SickTimeOffsPager.Page")
+                {
+                    pageLinkSick += this.Request.QueryString.GetKey(i) + "=" + Url.Encode(this.Request.QueryString[i]) + "&";
+                }
+            }
+        }
+        <ul style="list-style-type:none;">
+            @for (int i = 0; i < Model.SickTimeOffsPager.PagesCount; i++)
+            {
+                <li style="float:left; margin:0 5px;">
+                    <a href="/@this.ViewContext.RouteData.Values["controller"]/@this.ViewContext.RouteData.Values["action"]@Html.Raw(pageLinkSick)SickTimeOffsPager.Page=@(i+1)" style="text-decoration:none; font-weight:@(Model.SickTimeOffsPager.Page == (i+1) ? "bold" : "normal")">@(i + 1)</a>
+                </li>
+            }
+            <li>
+                <select id="ddlItemsPerpageSick" onchange="ddlItemsPerpage_OnChangeSick();" style="border-radius: 1rem; width: 5%; height: 3vh; margin-left: 10px">
+                    <option value="10" @(Model.SickTimeOffsPager.ItemsPerPage == 10 ? "selected" : "")>10</option>
+                    <option value="50" @(Model.SickTimeOffsPager.ItemsPerPage == 50 ? "selected" : "")>50</option>
+                    <option value="100" @(Model.SickTimeOffsPager.ItemsPerPage == 100 ? "selected" : "")>100</option>
+                </select>
+            </li>
+        </ul>
+        <script>
+                        function ddlItemsPerpage_OnChangeSick() {
+                            @{
+                                string itemsPerPageLinkSick = "?";
+                                for (int i = 0; i < this.Request.QueryString.Count; i++)
+                                {
+                                    if (!this.Request.QueryString.GetKey(i).StartsWith("SickTimeOffsPager"))
+                                    {
+                                        itemsPerPageLinkSick += this.Request.QueryString.GetKey(i) + "=" + Url.Encode(this.Request.QueryString[i]) + "&";
+                                    }
+                                }
+                            }
+
+                            var link = "/@this.ViewContext.RouteData.Values["controller"]/@this.ViewContext.RouteData.Values["action"]@Html.Raw(itemsPerPageLinkSick)" + "SickTimeOffsPager.ItemsPerPage=" + $("#ddlItemsPerpageSick").val();
+
+                            window.location.href = link;
+                        }
+        </script>
+    </div>
+
+</div>
+<!-- /.container-fluid -->
